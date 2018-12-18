@@ -1,0 +1,46 @@
+body {margin:0;padding: 0;}
+#logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+#logo::before {
+    border-radius: 1000px;
+    margin-bottom: 5px;
+    margin-left: -50px;
+    content: '';
+    display: block;
+    border: 3px solid white;
+    width: 50px;
+}
+#logo::after {
+    border-radius: 1000px;
+    margin-top: 5px;
+    margin-left: 50px;
+    content: '';
+    display: block;
+    border: 3px solid white;
+    width: 50px;
+}
+.headernya {
+    width: 100%;
+    padding: 20px 0px;
+    background: rgb(15, 132, 228);
+    color: white;
+    box-shadow: 0px 0px 10px gray;
+}
+.testi-form {
+    color: gray;
+    text-align: center;
+    border-radius: 5px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    width: 500px;
+    box-shadow: 0px 0px 5px gray;
+}
+#form-testi .ui.input {
+    width: 100%;
+    margin: 10px 0px;
+}
+#hd-msg {
+    display: none;
+}

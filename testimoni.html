@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zero Code | Testimoni</title>
+    <link rel="stylesheet" href="./semantic.min.css">
+    <link rel="stylesheet" href="css/testi.css">
+</head>
+<body>
+
+    <!-- Header Element -->
+    <div class="headernya">
+        <center>
+            <span id="logo">{/0} Zero</span>
+        </center>
+    </div>
+    <!--  -->
+    
+    <!-- Testimoni Form -->
+    <div class="testi-form">
+        <h3>Testimoni</h3><br>
+
+        <!-- Message After Submit -->
+        <div class="ui message warning" id="hd-msg">
+            <div class="header">Warning</div>
+            <p>Please Fill All Forms</p>
+        </div>
+        <div class="ui message error" id="hd-msg">
+            <div class="header">Error</div>
+            <p>Internal Server Error</p>
+        </div>
+        <div class="ui message success" id="hd-msg">
+            <div class="header">Success</div>
+            <p>Thank you for Submitting Your Testimoni</p>
+        </div>
+        <!--  -->
+
+        <form class="ui form" id="form-testi">
+            <div class="ui input icon">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off">
+                <i class="user icon"></i>
+            </div>
+            <div class="ui input icon">
+                <input type="text" name="testimoni" placeholder="Your Testimoni" autocomplete="off">
+                <i class="envelope icon"></i>
+            </div>
+            <div class="ui input icon">
+                <input type="text" name="facebook" placeholder="Your Facebook Account" autocomplete="off">
+                <i class="facebook square icon"></i>
+            </div>
+            <div class="ui input icon">
+                <input type="text" name="twitter" placeholder="Your Twitter Account" autocomplete="off">
+                <i class="twitter square icon"></i>
+            </div>
+            <div class="ui input icon">
+                <input type="text" name="instagram" placeholder="Your Instagram Account" autocomplete="off">
+                <i class="instagram icon"></i>
+            </div>
+            <br><br>
+            <button class="ui button basic blue" style="width:100%;">Submit</button>
+        </form>
+    </div>
+    <!--  -->
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="./semantic.min.js"></script>
+<script src="js/testi.js"></script>
+</html>
