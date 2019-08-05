@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: onekill0503.github.io 
+Token: 001d2f38011074360ed95b4ef3b7e794774947ecc25d0b869e3263f1eb349f57
