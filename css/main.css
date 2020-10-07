@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;1,400;1,600&family=Poppins:wght@600;700&display=swap');
 body {
     margin:0;
     padding:0;
@@ -6,7 +7,7 @@ body {
 
 .banner {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -39,7 +40,7 @@ body {
 }
 #header-nonfix {
     box-sizing: border-box;
-    padding-top: 20px;
+    padding-top: 50px;
     width: 100%;
 }
 #header-fix {
@@ -126,21 +127,49 @@ body {
     height: 100%;
     background: rgba(15, 132, 228, 0.753);
 }
-.wave {
+/* .wave {
     position: absolute;
     bottom:-10px;
 }
 .wave img {
     width: 100%;
-}
+} */
 
+.custom-shape-divider-bottom-1602060610 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-bottom-1602060610 .shape-fill {
+    fill: white;
+}
 /* Skills Element CSS */
 #skills {
-    background: white;
+    background: transparent;
+    position: relative;
+    z-index: 1;
     width: 100%;
     color: gray;
-    padding: 70px 0px;
+    margin-top:-75px;
     text-align: center;
+}
+#skills h3 {
+    font-size: 30px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+#skills h3::after {
+    content: '';
+    margin: 7px auto;
+    width: 75px;
+    background: rgb(122, 122, 122);
+    height: 3px;
+    display: block;
+    border-radius: 20px;
 }
 #skill-title {
     display: block;
@@ -158,7 +187,7 @@ body {
 /* Contact CSS */
 
 #contact {
-    padding: 100px 0px;
+    margin: 150px 0px;
     background: white;
     width: 100%;
     position: relative;
@@ -177,8 +206,18 @@ body {
     width: 600px;
 }
 #contact-title {
-    font-size: 18px;
-    font-weight: bold;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    font-weight: 600;
+}
+#contact-title::after {
+    content: '';
+    margin: 7px auto;
+    width: 50px;
+    background: rgb(122, 122, 122);
+    height: 3px;
+    display: block;
+    border-radius: 20px;
 }
 .inpt {
     display: block;
